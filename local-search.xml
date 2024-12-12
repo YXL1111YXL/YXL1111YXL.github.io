@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>姚的第一篇文章</title>
+    <link href="/2024/12/12/%E5%A7%9A%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <url>/2024/12/12/%E5%A7%9A%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<p>欢迎来到我的博客，这是我于2024.12.7晚上八点创建的第一篇文章，可恶的加速器误我两天，还是翻墙好啊．大家一起来翻墙吧！</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>羽毛球&amp;开始正式学习java</title>
+    <link href="/2024/12/10/%E5%BC%80%E5%A7%8B%E6%AD%A3%E5%BC%8F%E5%AD%A6%E4%B9%A0java2024.12.12/"/>
+    <url>/2024/12/10/%E5%BC%80%E5%A7%8B%E6%AD%A3%E5%BC%8F%E5%AD%A6%E4%B9%A0java2024.12.12/</url>
+    
+    <content type="html"><![CDATA[<p>大晚上没睡觉躺在床上翻老家的照片,突然有人给我发信息.,然后就跟她聊到了老家.<br>这是我自认为拍的比较好看的几张老家的照片,都是吃完晚饭去散步的时候拍的.</p><p><img src="/images/%E8%80%81%E5%AE%B6%E9%A3%8E%E6%99%AF1.jpg"><br><img src="/images/%E8%80%81%E5%AE%B6%E9%A3%8E%E6%99%AF2.jpg"><br><img src="/images/%E8%80%81%E5%AE%B6%E9%A3%8E%E6%99%AF3.jpg"></p><p>老家旁边的水坝蜿蜒很长,上面修了一条很宽敞的路,水坝东边是一片片农田,西边是一口湖,听说是鄱阳湖的分支.<br>那条路人很少,风景很好.又因为比两边高很多,所以总会有微风,找不到第二个比这条水坝之上的路更惬意的地方了.</p><p>早上8点的闹钟响了,想着没有非做不可的事儿于是接着睡了,8:50左右被室友叫醒去球馆打羽毛球.</p><p><img src="/images/%E7%BE%BD%E6%AF%9B%E7%90%831.jpg"></p><p>到了12:06打了个车回去了,路上司机指着下一单的接人地点问我知道这是哪儿不?<br>上面显示:The Hunan University of Technology (new…)<br>仔细一看这不就是学校吗?<br>司机又笑着说: 是两个黑人,接了好几次了.<br>吃了完午餐就回寝室睡觉了,因为下午还要去自习.<br>室友睡醒了,开始自言自语,虽然见怪不怪了但还是睡不着,看了看时间1:36,想了想直接去自习了.<br>下午目标很明确,有人跟我说过我的博客没有评论功能.</p><p><img src="/images/%E6%B2%A1%E8%AF%84%E8%AE%BA%E5%B7%AE%E8%AF%84.png"></p><p>搞了一下午尝试了各种评论插件,搞到了5:10还是没有成功,已经开始感觉到红温了.<br>加上今天下午,为了搞评论功能搞了8个小时,不打算搞了.<br>骑车去北苑点了一份干拌面,吃完回寝室洗了个澡就去自习了.</p><p>正在哔哩哔哩大学学Java的我突然被旁边的同学扯了一下,他指着他的屏幕.</p><p><img src="/images/%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98.png"></p><p>我笑了笑说拍个照(以为网上有人名字首字母跟我一样).<br>然后他说这是他的博客,我才知道是他打上去的,我很疑惑鸣谢我干啥.<br>一会儿后才知道是给他解释了一些搭建博客时遇到的问题.<br>明明是那么简单的几个操作,我花了几个晚上各个平台搜索信息,看视频,逐条评论搜索,去试错.<br>讲给别人也不过区区十分钟就讲完了.<br>这就是有人指导的重要性,完全就是事一功十.</p><p>今天也正式决定了跟着一位b站上的博主学习java.</p><p><a href="https://b23.tv/P6OHyvX">点击此处跳转教学</a></p><p>今天的进度:<a href="https://b23.tv/uVtIJFM">java基础概念-03-字面量</a></p><p>今天一点点不开心.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习</category>
+      
+      <category>日记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>运动</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>今天又开心又不开心.</title>
+    <link href="/2024/12/09/%E8%80%B3%E6%9C%BA%E7%9A%84%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8B%E5%84%BF%202024.12.9/"/>
+    <url>/2024/12/09/%E8%80%B3%E6%9C%BA%E7%9A%84%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8B%E5%84%BF%202024.12.9/</url>
+    
+    <content type="html"><![CDATA[<p>之前团支书号召大家报名下周一的升旗仪式,也就是今天.我心想既然迟早都要轮到我们,不如这次给他报了,然后我就给我和朋友报了.<br>昨天晚上弓箭洗还嘱咐我明天早上他起不来一定要给他叫醒,我欣然答应.<br>然后我订了个5:20的闹钟,感觉还是有点晚了,毕竟5.40之前就得赶到,于是大手一挥把闹钟定到了5:12,心想应该不会迟到了.<br>第二天4:45醒了一次,可能这就是高手对于即将到来的任务的预醒吧.(其实就是做了梦,忘记做了啥梦).<br>手机闹钟一响我马上起床了,第一件事是关掉闹钟,第二件事就是去216给朋友叫醒了,摇了好久才醒,他迷迷糊糊坐起来看着我.<br>回寝室穿好衣服洗漱完就出发了,到他寝室一看,他又睡了,听到我开门的声音他坐起来了,我说5:30了,马上迟到,就先走了.<br>然后走在路上.<br><img src="/images/12.jpg"><br>当时站在原地楞了一会儿,想着回寝室要给室友吵醒了,当即决定散散步.<br>没一会儿朋友也出发了,等我跟他汇合时.<br>他说:”我当时在想你5点钟叫我起来干嘛,我以为你是怕我待会起不来先叫一遍,然后我就想着再睡一会儿到6点起床,谁知道没过一会你又来了,还背着一个书包准备出发!”<br>给我俩都整笑了.</p><p>还有一个更离谱的事儿,自己给自己蠢笑了.<br>升旗的时候我问朋友: 你有耳机吗?<br>他说: 不是蓝牙就可以了吗.<br>我当时认真的以为待会听力考试是用刚从学校买的耳机听的,蓝牙耳机怎么能连上广播呢?<br>然后就先回了一趟寝室,把四六级耳机给拿上了,到了教室打书包里面拿出来给他摁上南孚,然后伸手指了指他耳朵上的蓝牙耳机.<br>“你这个能听吗?”<br>他说啥我忘记了,我把四六级听力耳机给放桌面上,看了一会儿听力原文,后面的同学突然给我发消息: 你咋把四六级耳机给带上了?<br>一阵交流,我明白事情的原委了,是我搞错了,这次考试单纯手机上写,也是手机连自己的耳机听听力!<br>然后前面的同学给我出了一个对策: 申请延考.<br>我鼓起勇气跟老师讲我的请求,老手一脸严肃.<br>一板一眼的说道: 你知道吗?你延考的话是全班人坐在这儿,我一个人监督你考试.<br>我低着头点了点头.<br>“刚刚不是问过了吗?没有耳机的去隔壁班看看.”<br>要怎么解释呢?我以为是用四六级耳机.<br>马上开始考试了,老师让我现在赶紧去别的班借.我慢跑路过两间教室,看见老师在讲台上滔滔不绝于是决定找下一个教室.</p><p>然后找到一个老师没在讲台上的教室.<br>“老师,我能找你们班借个耳机吗?待会要英语听力考试.”<br>“没有没有,在上课呢!”<br>不希望课堂被打扰的老师希望不速之客离开教室.<br>明知应该离开的我依然扫视一遍班级希望有人能伸出援手.<br>老师又催促一遍,这时候我犹豫的转身准备走了.<br>突然有个学姐喊住了我.<br>“诶,同学这个耳机可以吗?”<br>“谢谢”<br>正要接过耳机离开,她又开口:”A开头的!”<br>思考一会儿明白了她的意思,我点点头快步离开.<br>出于感恩,我塞了一张纸条给她,里面写了我的微信.<br><img src="/images/%E8%80%B3%E6%9C%BA%E5%AD%A6%E5%A7%90.jpg"></p><p>没报四六级的我只能把那个烂烂的耳机小心的收藏起来,期待以后它能派上用场.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>趣味</tag>
+      
+      <tag>暖心</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>姚大王的博客搭建日记.</title>
+    <link href="/2024/12/07/%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/"/>
+    <url>/2024/12/07/%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%90%AD%E5%BB%BA/</url>
+    
+    <content type="html"><![CDATA[<p>利用<a href="https://hexo.io/">Hexo</a>&amp;<a href="https://github.com/">GitHub</a>搭建自己的博客<br><a href="https://b23.tv/Ta1Jf7Q">点击此处跳转教程</a><br>遇到的问题以及搜索到的答案的话,在hexo d部署博客这一步之前按照视频操作应该是没有问题的.在hexo d这一步我卡了两天,查了好多资料问了好多人.<br>错误如下:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">Error: Spawn failed<br>    at ChildProcess.&lt;anonymous&gt;  (D:\StudyMaterials\8_FileManagement\testBlog\blog\node_modules\hexo-util\lib\spawn.js:51:21)<br>    at ChildProcess.emit (events.js:314:20)<br>    at ChildProcess.cp.emit  (D:\StudyMaterials\8_FileManagement\testBlog\blog\node_modules\cross-spawn\lib\enoent.js:34:29)<br>    at Process.ChildProcess._handle.onexit (internal/child_process.js:275:12)<br></code></pre></td></tr></table></figure><p>可把我气死了,深深的无力感.<br>得到的一些帮助如下:</p><p><img src="/images/7.jpg"><br><img src="/images/6.jpg"><br><img src="/images/5.jpg"><br><img src="/images/4.jpg"><br><img src="/images/8.jpg"></p><p>结果在和一位ios组学长的交流中在关掉加速器之后突然部署成功了!</p><p><img src="/images/2.jpg"><br><img src="/images/3.jpg"></p><p>好景不长,在尝试更改博客标题后再次部署就找不到我的博客了.多次尝试之后直接原地红温</p><p><img src="/images/9.jpg"></p><p>然后开始怀疑是不是加速器的问题,然后开始查询有关于我正在用的加速器的资料,真让我给找着了.</p><p><img src="/images/10.jpg"><br><img src="/images/11.jpg"></p><p>然后开始断掉加速器尝试hexo d,有时候成功,有时候失败.不禁想到有人评论跟网速有关.<br>然后叫同学教我搭梯子翻墙.当天晚上就成功了,我开始把一切的原因归结于加速器.<br>知道我又一次报错,我不得不再次踏上寻找答案的路.<br>最终,在一个偏僻的角落的文章的评论区,看到了一个网友的评论说:</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs lua">打开<span class="hljs-built_in">config</span>.yml配置文件,修改repo: https://github.com/yourname/yourname.github.<span class="hljs-built_in">io</span>.git为repo: git@github.com:yourname/yourname.github.<span class="hljs-built_in">io</span>.git<br></code></pre></td></tr></table></figure><p>抱着试一试的心态按照他的方法试了一遍,结果成功了,每一次hexo d都会成功,无论你是否开加速器亦或者是挂梯子都百分百成功.<br>至此,姚大王的博客就彻底搭建成功了!</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>日记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
