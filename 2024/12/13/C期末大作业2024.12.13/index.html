@@ -27,7 +27,7 @@
 <meta property="og:description" content="（要不要添加老师专属成绩录入系统,很久以前写过一个,平均分,排名功能都有） 密码模块:   功能: 核对用户输入,修改密码.   具体实现构想:   核对用户输入:利用 for 循环遍历存储输入的数组和存储密码的数组,对比每个元素,若有元素对比失败,返回密码错误.    修改密码:输入特定值时通过 goto 进入 while 循环,其中使用 scanf 返回值特性来接收正确输入。主界面:">
 <meta property="og:locale" content="zn_CH">
 <meta property="article:published_time" content="2024-12-13T10:51:54.000Z">
-<meta property="article:modified_time" content="2024-12-13T11:03:57.297Z">
+<meta property="article:modified_time" content="2024-12-13T11:07:31.638Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="学习">
 <meta property="article:tag" content="C语言">
@@ -119,7 +119,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Hejmpaĝo</span>
+                <span>Startseite</span>
               </a>
             </li>
           
@@ -131,7 +131,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Arkivoj</span>
+                <span>Archiv</span>
               </a>
             </li>
           
@@ -143,7 +143,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Kategorio</span>
+                <span>Kategorien</span>
               </a>
             </li>
           
@@ -155,7 +155,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Etikedoj</span>
+                <span>Schlagwörter</span>
               </a>
             </li>
           
@@ -167,7 +167,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>Pri</span>
+                <span>Über</span>
               </a>
             </li>
           
@@ -224,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          496 vortoj
+          496 wörter
         
       </span>
     
@@ -235,7 +235,7 @@
         
         
         
-          5 minutoj
+          5 minuten
         
       </span>
     
@@ -278,8 +278,7 @@
               <div class="markdown-body">
                 
                 <p>   （要不要添加老师专属成绩录入系统,很久以前写过一个,平均分,排名功能都有）</p>
-<h2 id="密码模块-功能-核对用户输入-修改密码-具体实现构想-核对用户输入-利用-for-循环遍历存储输入的数组和存储密码的数组-对比每个元素-若有元素对比失败-返回密码错误-修改密码-输入特定值时通过-goto-进入-while-循环-其中使用-scanf-返回值特性来接收正确输入。"><a href="#密码模块-功能-核对用户输入-修改密码-具体实现构想-核对用户输入-利用-for-循环遍历存储输入的数组和存储密码的数组-对比每个元素-若有元素对比失败-返回密码错误-修改密码-输入特定值时通过-goto-进入-while-循环-其中使用-scanf-返回值特性来接收正确输入。" class="headerlink" title="密码模块:   功能: 核对用户输入,修改密码.   具体实现构想:   核对用户输入:利用 for 循环遍历存储输入的数组和存储密码的数组,对比每个元素,若有元素对比失败,返回密码错误.    修改密码:输入特定值时通过 goto 进入 while 循环,其中使用 scanf 返回值特性来接收正确输入。"></a>密码模块:<br>   功能: 核对用户输入,修改密码.<br>   具体实现构想:<br>   核对用户输入:利用 for 循环遍历存储输入的数组和存储密码的数组,对比每个元素,若有元素对比失败,返回密码错误.<br>    修改密码:输入特定值时通过 goto 进入 while 循环,其中使用 scanf 返回值特性来接收正确输入。</h2><h2 id="主界面-功能-提供选项-接收用户需求并引用其他功能模块-具体实现构想-提供选项-printf-函数打印所有可能选项-多个-printf-打印界面-满足需求-通过-switch-函数比对用户输入进入对应函数"><a href="#主界面-功能-提供选项-接收用户需求并引用其他功能模块-具体实现构想-提供选项-printf-函数打印所有可能选项-多个-printf-打印界面-满足需求-通过-switch-函数比对用户输入进入对应函数" class="headerlink" title="主界面:   功能: 提供选项,接收用户需求并引用其他功能模块.   具体实现构想:   提供选项:   printf 函数打印所有可能选项.   多个 printf 打印界面.   满足需求:   通过 switch 函数比对用户输入进入对应函数."></a>主界面:<br>   功能: 提供选项,接收用户需求并引用其他功能模块.<br>   具体实现构想:<br>   提供选项:<br>   printf 函数打印所有可能选项.<br>   多个 printf 打印界面.<br>   满足需求:<br>   通过 switch 函数比对用户输入进入对应函数.</h2><h2 id="其他功能模块-小游戏模块-计算机模块-成绩查询模块-设置-小游戏模块-定义-game-函数-其中装载小游戏"><a href="#其他功能模块-小游戏模块-计算机模块-成绩查询模块-设置-小游戏模块-定义-game-函数-其中装载小游戏" class="headerlink" title="其他功能模块:   小游戏模块,计算机模块,成绩查询模块,设置.   小游戏模块:   定义 game 函数,其中装载小游戏."></a>其他功能模块:<br>   小游戏模块,计算机模块,成绩查询模块,设置.<br>   小游戏模块:<br>   定义 game 函数,其中装载小游戏.</h2><h2 id="计算机模块-构想1-简单的两个数字加减乘除-char变量存储运算符-构想2-多个数字加减乘除（-char-类型-input-数组存储用户输入-int-类型-mark-数组只存储-0-1-标记数字是否被使用-mark-数组初始化-0-一旦对应数字被使用-该-mark-数组元素赋值为1-表示该数字已被使用-防止重复运算-遍历-input-数组-优先计算×÷）-功能不算很强-实现有点复杂"><a href="#计算机模块-构想1-简单的两个数字加减乘除-char变量存储运算符-构想2-多个数字加减乘除（-char-类型-input-数组存储用户输入-int-类型-mark-数组只存储-0-1-标记数字是否被使用-mark-数组初始化-0-一旦对应数字被使用-该-mark-数组元素赋值为1-表示该数字已被使用-防止重复运算-遍历-input-数组-优先计算×÷）-功能不算很强-实现有点复杂" class="headerlink" title="   计算机模块:   构想1:   简单的两个数字加减乘除,char变量存储运算符.   构想2:   多个数字加减乘除（ char 类型 input 数组存储用户输入,int 类型 mark 数组只存储 0 &amp; 1 标记数字是否被使用.mark 数组初始化 0 ,一旦对应数字被使用,该 mark 数组元素赋值为1,表示该数字已被使用,防止重复运算.遍历 input 数组,优先计算×÷）   功能不算很强,实现有点复杂."></a>   计算机模块:<br>   构想1:<br>   简单的两个数字加减乘除,char变量存储运算符.<br>   构想2:<br>   多个数字加减乘除（ char 类型 input 数组存储用户输入,int 类型 mark 数组只存储 0 &amp; 1 标记数字是否被使用.mark 数组初始化 0 ,一旦对应数字被使用,该 mark 数组元素赋值为1,表示该数字已被使用,防止重复运算.遍历 input 数组,优先计算×÷）<br>   功能不算很强,实现有点复杂.</h2><h2 id="设置模块-根据用户喜好调整键位-开启-关闭某些模块的调用权限（隐藏-开启模块）"><a href="#设置模块-根据用户喜好调整键位-开启-关闭某些模块的调用权限（隐藏-开启模块）" class="headerlink" title="设置模块:   根据用户喜好调整键位.开启&#x2F;关闭某些模块的调用权限（隐藏&#x2F;开启模块）"></a>设置模块:<br>   根据用户喜好调整键位.开启&#x2F;关闭某些模块的调用权限（隐藏&#x2F;开启模块）</h2><p>成绩查询:<br>   使用结构体存储一些学生的成绩,输入名称查询各科成绩和总成绩以及排名.<br>   进入教师查询所有人成绩以及密码后打印表格,包含所有人的成绩.<br>   (添加老师专属成绩录入系统,,平均分,排名功能).</p>
-
+<h2 id="密码模块-功能-核对用户输入-修改密码-具体实现构想-核对用户输入-利用-for-循环遍历存储输入的数组和存储密码的数组-对比每个元素-若有元素对比失败-返回密码错误-修改密码-输入特定值时通过-goto-进入-while-循环-其中使用-scanf-返回值特性来接收正确输入。"><a href="#密码模块-功能-核对用户输入-修改密码-具体实现构想-核对用户输入-利用-for-循环遍历存储输入的数组和存储密码的数组-对比每个元素-若有元素对比失败-返回密码错误-修改密码-输入特定值时通过-goto-进入-while-循环-其中使用-scanf-返回值特性来接收正确输入。" class="headerlink" title="密码模块:   功能: 核对用户输入,修改密码.   具体实现构想:   核对用户输入:利用 for 循环遍历存储输入的数组和存储密码的数组,对比每个元素,若有元素对比失败,返回密码错误.    修改密码:输入特定值时通过 goto 进入 while 循环,其中使用 scanf 返回值特性来接收正确输入。"></a>密码模块:<br>   功能: 核对用户输入,修改密码.<br>   具体实现构想:<br>   核对用户输入:利用 for 循环遍历存储输入的数组和存储密码的数组,对比每个元素,若有元素对比失败,返回密码错误.<br>    修改密码:输入特定值时通过 goto 进入 while 循环,其中使用 scanf 返回值特性来接收正确输入。</h2><h2 id="主界面-功能-提供选项-接收用户需求并引用其他功能模块-具体实现构想-提供选项-printf-函数打印所有可能选项-多个-printf-打印界面-满足需求-通过-switch-函数比对用户输入进入对应函数"><a href="#主界面-功能-提供选项-接收用户需求并引用其他功能模块-具体实现构想-提供选项-printf-函数打印所有可能选项-多个-printf-打印界面-满足需求-通过-switch-函数比对用户输入进入对应函数" class="headerlink" title="主界面:   功能: 提供选项,接收用户需求并引用其他功能模块.   具体实现构想:   提供选项:   printf 函数打印所有可能选项.   多个 printf 打印界面.   满足需求:   通过 switch 函数比对用户输入进入对应函数."></a>主界面:<br>   功能: 提供选项,接收用户需求并引用其他功能模块.<br>   具体实现构想:<br>   提供选项:<br>   printf 函数打印所有可能选项.<br>   多个 printf 打印界面.<br>   满足需求:<br>   通过 switch 函数比对用户输入进入对应函数.</h2><h2 id="其他功能模块-小游戏模块-计算机模块-成绩查询模块-设置-小游戏模块-定义-game-函数-其中装载小游戏"><a href="#其他功能模块-小游戏模块-计算机模块-成绩查询模块-设置-小游戏模块-定义-game-函数-其中装载小游戏" class="headerlink" title="其他功能模块:   小游戏模块,计算机模块,成绩查询模块,设置.   小游戏模块:   定义 game 函数,其中装载小游戏."></a>其他功能模块:<br>   小游戏模块,计算机模块,成绩查询模块,设置.<br>   小游戏模块:<br>   定义 game 函数,其中装载小游戏.</h2><h2 id="计算机模块-构想1-简单的两个数字加减乘除-char变量存储运算符-构想2-多个数字加减乘除（-char-类型-input-数组存储用户输入-int-类型-mark-数组只存储-0-1-标记数字是否被使用-mark-数组初始化-0-一旦对应数字被使用-该-mark-数组元素赋值为1-表示该数字已被使用-防止重复运算-遍历-input-数组-优先计算×÷）-功能不算很强-实现有点复杂"><a href="#计算机模块-构想1-简单的两个数字加减乘除-char变量存储运算符-构想2-多个数字加减乘除（-char-类型-input-数组存储用户输入-int-类型-mark-数组只存储-0-1-标记数字是否被使用-mark-数组初始化-0-一旦对应数字被使用-该-mark-数组元素赋值为1-表示该数字已被使用-防止重复运算-遍历-input-数组-优先计算×÷）-功能不算很强-实现有点复杂" class="headerlink" title="   计算机模块:   构想1:   简单的两个数字加减乘除,char变量存储运算符.   构想2:   多个数字加减乘除（ char 类型 input 数组存储用户输入,int 类型 mark 数组只存储 0 &amp; 1 标记数字是否被使用.mark 数组初始化 0 ,一旦对应数字被使用,该 mark 数组元素赋值为1,表示该数字已被使用,防止重复运算.遍历 input 数组,优先计算×÷）   功能不算很强,实现有点复杂."></a>   计算机模块:<br>   构想1:<br>   简单的两个数字加减乘除,char变量存储运算符.<br>   构想2:<br>   多个数字加减乘除（ char 类型 input 数组存储用户输入,int 类型 mark 数组只存储 0 &amp; 1 标记数字是否被使用.mark 数组初始化 0 ,一旦对应数字被使用,该 mark 数组元素赋值为1,表示该数字已被使用,防止重复运算.遍历 input 数组,优先计算×÷）<br>   功能不算很强,实现有点复杂.</h2><h2 id="设置模块-根据用户喜好调整键位-开启-关闭某些模块的调用权限（隐藏-开启模块）"><a href="#设置模块-根据用户喜好调整键位-开启-关闭某些模块的调用权限（隐藏-开启模块）" class="headerlink" title="设置模块:   根据用户喜好调整键位.开启&#x2F;关闭某些模块的调用权限（隐藏&#x2F;开启模块）"></a>设置模块:<br>   根据用户喜好调整键位.开启&#x2F;关闭某些模块的调用权限（隐藏&#x2F;开启模块）</h2><h2 id="成绩查询-使用结构体存储一些学生的成绩-输入名称查询各科成绩和总成绩以及排名-进入教师查询所有人成绩以及密码后打印表格-包含所有人的成绩-添加老师专属成绩录入系统-平均分-排名功能"><a href="#成绩查询-使用结构体存储一些学生的成绩-输入名称查询各科成绩和总成绩以及排名-进入教师查询所有人成绩以及密码后打印表格-包含所有人的成绩-添加老师专属成绩录入系统-平均分-排名功能" class="headerlink" title="成绩查询:   使用结构体存储一些学生的成绩,输入名称查询各科成绩和总成绩以及排名.   进入教师查询所有人成绩以及密码后打印表格,包含所有人的成绩.   (添加老师专属成绩录入系统,,平均分,排名功能)."></a>成绩查询:<br>   使用结构体存储一些学生的成绩,输入名称查询各科成绩和总成绩以及排名.<br>   进入教师查询所有人成绩以及密码后打印表格,包含所有人的成绩.<br>   (添加老师专属成绩录入系统,,平均分,排名功能).</h2>
                 
               </div>
             
@@ -332,20 +331,20 @@
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Aŭtoro</div>
+          <div>Beitragsautor</div>
           <div>John Doe</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Postigita</div>
+          <div>Veröffentlicht am</div>
           <div>December 13, 2024</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Lizenta</div>
+          <div>Urheberrechtshinweis</div>
           <div>
             
               
@@ -377,7 +376,7 @@
                     
                       <a href="/2024/12/12/java%E7%AC%94%E8%AE%B02024-12-12/" title="java笔记.">
                         <span class="hidden-mobile">java笔记.</span>
-                        <span class="visible-mobile">Sekva afiŝo</span>
+                        <span class="visible-mobile">Nächster</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -398,7 +397,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Enhavtabelo</span>
+    <span>Inhaltsverzeichnis</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -454,7 +453,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Serĉi</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Suchen</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -462,7 +461,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">ŝlosivorto</label>
+          <label data-error="x" data-success="v" for="local-search-input">Stichwort</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -640,7 +639,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blogo funkcias plej bone kun JavaScript ebligita</div>
+    <div class="noscript-warning">Blog funktioniert am besten mit aktiviertem JavaScript</div>
   </noscript>
 </body>
 </html>
