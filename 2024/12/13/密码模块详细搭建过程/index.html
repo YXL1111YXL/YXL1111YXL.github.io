@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zn_CH">
 <meta property="og:image" content="http://example.com/images/%E5%AF%86%E7%A0%81%E9%94%99%E8%AF%AF.png">
 <meta property="article:published_time" content="2024-12-13T12:20:15.000Z">
-<meta property="article:modified_time" content="2024-12-13T13:35:48.608Z">
+<meta property="article:modified_time" content="2024-12-14T03:47:27.524Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary_large_image">
@@ -120,7 +120,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Startseite</span>
+                <span>Hejmpaĝo</span>
               </a>
             </li>
           
@@ -132,7 +132,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archiv</span>
+                <span>Arkivoj</span>
               </a>
             </li>
           
@@ -144,7 +144,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Kategorien</span>
+                <span>Kategorio</span>
               </a>
             </li>
           
@@ -156,7 +156,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Schlagwörter</span>
+                <span>Etikedoj</span>
               </a>
             </li>
           
@@ -168,7 +168,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>Über</span>
+                <span>Pri</span>
               </a>
             </li>
           
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.1k wörter
+          2.7k vortoj
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          18 minuten
+          23 minutoj
         
       </span>
     
@@ -303,7 +303,12 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#include&lt;stdio.h&gt;</span><br><span class="hljs-comment">#include&lt;string.h&gt;</span><br><span class="hljs-comment">#include&lt;stdlib.h&gt;        //引入清屏操作system(&quot;cls&quot;)的头文件</span><br>int <span class="hljs-function"><span class="hljs-title">main</span></span>()<br>&#123;<br>	char true_mima [20] = <span class="hljs-string">&quot;123456&quot;</span>;  //初始化密码为123456.<br>	char input_mima[20];                   //记录你的输入<br>	int mark_mima = 0;                     //用于检验密码是否正确,将输入和密码一个个进行对比,有一个没对上就赋值为1<br>	int mark_cishu = 0;                      //单纯记录输入密码的次数<br>YXL:<br>	<span class="hljs-keyword">if</span> (mark_cishu == 3)<br>	&#123;<br>		<span class="hljs-built_in">return</span> 0;                             //只给三次机会,再多就不给了!<br>	&#125;<br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;请输入密码(您还剩%d次机会):&quot;</span>, 3 - mark_cishu);    <br>	fgets(input_mima, strlen(true_mima)+1,stdin);              //fgets 会吃一个回车符,所以+1.<br>	//printf(<span class="hljs-string">&quot; % c&quot;</span>, input_mima[5]);                         //这个是我用来检验最后一个字符是否成功读取,fgets太危险了.后面就给删了.  <br>	<br>	<br>	<span class="hljs-keyword">for</span> (int i = 0; i &lt; strlen(true_mima);i++)<br>	&#123;<br>		<span class="hljs-keyword">if</span> (true_mima[i] != input_mima[i])<br>		&#123;<br>                         getchar();                      //&lt;-----------------------这儿这儿.<br>			 mark_mima = 1;<br>			 mark_cishu ++;<br>			 goto YXL;                   //检验到对不上的,不必多言,重新输入,去到 YXL 标记点开始执行.<br>		&#125;<br>	&#125;<br><br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d,%d&quot;</span>, strlen(true_mima), strlen(input_mima));  //用来检验前面的代码是否正确,后期删掉.<br><br>	<span class="hljs-keyword">if</span> (mark_mima == 0 &amp;&amp; strlen(true_mima) == strlen(input_mima))<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;欢迎回来!\n(按下任意键进入)&quot;</span>);<br>		getchar(); <br>                getchar();   //执行到此处时程序停止,等待用户输入再执行下面清屏的操作.<br>		system(<span class="hljs-string">&quot;cls&quot;</span>);<br>	&#125;<br><br><br>	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (mark_mima == 1)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;输入错误!&quot;</span>);         //此处<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> 只是为了之前的检验,后面要删.<br>	&#125;<br>	<span class="hljs-built_in">return</span> 0;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <p>写的源代码运行没发现错误,这个代码可能再修改过程中改错了,应该是没错的.<br>(我是将完全代码修改成错误代码在复制过来再添加注释的,然后再在这个基础上补充,所以可能会又偏差,错了讲一下我改一下就ok)<br>有没有可能我自认为的完全代码还有不为人知的错误?<br>密码模块进度:75%.</p>
+<p>12.14修改.<br>今天早上本来打算把改改密码的功能给他实现了,然后运行了一遍代码,发现错误了.</p>
+<p>代码第二次第三次输入正确会直接进入到最后一个 printf(“输入错误”);<br>说明正确的密码被正确读取了.(因为通过了这一部分的检验):</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-keyword">for</span> (int i = 0; i &lt; strlen(true_mima);i++)<br>	&#123;<br>		<span class="hljs-keyword">if</span> (true_mima[i] != input_mima[i])<br>		&#123;<br>                         getchar();                      //&lt;-----------------------这儿这儿.<br>			 mark_mima = 1;<br>			 mark_cishu ++;<br>			 goto YXL;                   //检验到对不上的,不必多言,重新输入,去到 YXL 标记点开始执行.<br>		&#125;<br>	&#125;<br></code></pre></td></tr></table></figure>
 
+<p>所以每个元素都是对上的.<br>所以我们再开 printf 的条件就能知道错在第一次输入错误时 mark_mima 被标记为了1,所以我们只需要每次对比密码时重新赋值为0就行了.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#include&lt;stdio.h&gt;</span><br><span class="hljs-comment">#include&lt;string.h&gt;</span><br><span class="hljs-comment">#include&lt;stdlib.h&gt;        //引入清屏操作system(&quot;cls&quot;)的头文件</span><br>int <span class="hljs-function"><span class="hljs-title">main</span></span>()<br>&#123;<br>	char true_mima [20] = <span class="hljs-string">&quot;123456&quot;</span>;  //初始化密码为123456.<br>	char input_mima[20];                   //记录你的输入<br>	int mark_mima = 0;                     //用于检验密码是否正确,将输入和密码一个个进行对比,有一个没对上就赋值为1<br>	int mark_cishu = 0;                      //单纯记录输入密码的次数<br>YXL:<br>	<span class="hljs-keyword">if</span> (mark_cishu == 3)<br>	&#123;<br>		<span class="hljs-built_in">return</span> 0;                             //只给三次机会,再多就不给了!<br>	&#125;<br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;请输入密码(您还剩%d次机会):&quot;</span>, 3 - mark_cishu);    <br>	fgets(input_mima, strlen(true_mima)+1,stdin);              //fgets 会吃一个回车符,所以+1.<br>	//printf(<span class="hljs-string">&quot; % c&quot;</span>, input_mima[5]);                         //这个是我用来检验最后一个字符是否成功读取,fgets太危险了.后面就给删了.  <br>	<br>        mark_mima = 0;	<br><br>	<span class="hljs-keyword">for</span> (int i = 0; i &lt; strlen(true_mima);i++)<br>	&#123;<br>		<span class="hljs-keyword">if</span> (true_mima[i] != input_mima[i])<br>		&#123;<br>                         getchar();                      //&lt;-----------------------这儿这儿.<br>			 mark_mima = 1;<br>			 mark_cishu ++;<br>			 goto YXL;                   //检验到对不上的,不必多言,重新输入,去到 YXL 标记点开始执行.<br>		&#125;<br>	&#125;<br><br><br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d,%d&quot;</span>, strlen(true_mima), strlen(input_mima));  //用来检验前面的代码是否正确,后期删掉.<br><br>	<span class="hljs-keyword">if</span> (mark_mima == 0 &amp;&amp; strlen(true_mima) == strlen(input_mima))<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;欢迎回来!\n(按下任意键进入)&quot;</span>);<br>		getchar(); <br>                getchar();   //执行到此处时程序停止,等待用户输入再执行下面清屏的操作.<br>		system(<span class="hljs-string">&quot;cls&quot;</span>);<br>	&#125;<br><br><br>	<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (mark_mima == 1)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;输入错误!&quot;</span>);         //此处<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> 只是为了之前的检验,后面要删.<br>	&#125;<br>	<span class="hljs-built_in">return</span> 0;<br>&#125;<br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -354,20 +359,20 @@
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Beitragsautor</div>
+          <div>Aŭtoro</div>
           <div>John Doe</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Veröffentlicht am</div>
+          <div>Postigita</div>
           <div>December 13, 2024</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Urheberrechtshinweis</div>
+          <div>Lizenta</div>
           <div>
             
               
@@ -399,7 +404,7 @@
                     
                       <a href="/2024/12/13/C%E6%9C%9F%E6%9C%AB%E5%A4%A7%E4%BD%9C%E4%B8%9A2024.12.13/" title="C期末大作业">
                         <span class="hidden-mobile">C期末大作业</span>
-                        <span class="visible-mobile">Nächster</span>
+                        <span class="visible-mobile">Sekva afiŝo</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -420,7 +425,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Inhaltsverzeichnis</span>
+    <span>Enhavtabelo</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -476,7 +481,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Suchen</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Serĉi</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -484,7 +489,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Stichwort</label>
+          <label data-error="x" data-success="v" for="local-search-input">ŝlosivorto</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -662,7 +667,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog funktioniert am besten mit aktiviertem JavaScript</div>
+    <div class="noscript-warning">Blogo funkcias plej bone kun JavaScript ebligita</div>
   </noscript>
 </body>
 </html>
