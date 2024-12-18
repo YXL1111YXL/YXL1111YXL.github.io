@@ -19,19 +19,21 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="今天.this 的内存原理public class Student &#123;      private int age;      public void method ( )      &#123;           int age &#x3D; 10;           System.out.println(">
+    <meta name="description" content="今天.this 的内存原理12345678910public class Student&#123;     private int age;     public void method ( )     &#123;          int age &#x3D; 10;          System.out.println(age);          System.out.println(this.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java面向对象-4">
 <meta property="og:url" content="http://example.com/2024/12/18/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-4/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="今天.this 的内存原理public class Student &#123;      private int age;      public void method ( )      &#123;           int age &#x3D; 10;           System.out.println(">
+<meta property="og:description" content="今天.this 的内存原理12345678910public class Student&#123;     private int age;     public void method ( )     &#123;          int age &#x3D; 10;          System.out.println(age);          System.out.println(this.">
 <meta property="og:locale" content="zn_CH">
+<meta property="og:image" content="http://example.com/images/%E5%B0%8F%E6%B8%B8%E6%88%8F1.png">
 <meta property="article:published_time" content="2024-12-18T11:01:55.000Z">
-<meta property="article:modified_time" content="2024-12-18T11:11:39.753Z">
+<meta property="article:modified_time" content="2024-12-18T12:35:53.146Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="java">
 <meta property="article:tag" content="面向对象">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/images/%E5%B0%8F%E6%B8%B8%E6%88%8F1.png">
   
   
   
@@ -119,7 +121,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Startseite</span>
+                <span>Hejmpaĝo</span>
               </a>
             </li>
           
@@ -131,7 +133,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archiv</span>
+                <span>Arkivoj</span>
               </a>
             </li>
           
@@ -143,7 +145,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Kategorien</span>
+                <span>Kategorio</span>
               </a>
             </li>
           
@@ -155,7 +157,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Schlagwörter</span>
+                <span>Etikedoj</span>
               </a>
             </li>
           
@@ -167,7 +169,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>Über</span>
+                <span>Pri</span>
               </a>
             </li>
           
@@ -224,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          17 wörter
+          335 vortoj
         
       </span>
     
@@ -235,7 +237,7 @@
         
         
         
-          1 minuten
+          3 minutoj
         
       </span>
     
@@ -277,14 +279,18 @@
             
               <div class="markdown-body">
                 
-                <h2 id="今天"><a href="#今天" class="headerlink" title="今天."></a>今天.</h2><h2 id="this-的内存原理"><a href="#this-的内存原理" class="headerlink" title="this 的内存原理"></a>this 的内存原理</h2><pre><code class="bash">public class Student
-&#123;
-     private int age;
-     public void method ( )
-     &#123;
-          int age = 10;
-          System.out.println(
-</code></pre>
+                <h2 id="今天"><a href="#今天" class="headerlink" title="今天."></a>今天.</h2><h2 id="this-的内存原理"><a href="#this-的内存原理" class="headerlink" title="this 的内存原理"></a>this 的内存原理</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bash">public class Student<br>&#123;<br>     private int age;<br>     public void <span class="hljs-function"><span class="hljs-title">method</span></span> ( )<br>     &#123;<br>          int age = 10;<br>          System.out.println(age);<br>          System.out.println(this.age);<br>     &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<ul>
+<li>this 的作用: 区分局部变量和成员变量.</li>
+<li>this 的本质: 所在方法调用者的地址值.</li>
+</ul>
+<h2 id="他的意思就是-this-其实就相当于一个前缀-就像-Student1-name-这个Student1-一样"><a href="#他的意思就是-this-其实就相当于一个前缀-就像-Student1-name-这个Student1-一样" class="headerlink" title="他的意思就是 this 其实就相当于一个前缀, 就像 Student1.name 这个Student1 一样."></a>他的意思就是 this 其实就相当于一个前缀, 就像 Student1.name 这个Student1 一样.</h2><h2 id="成员变量-和-局部变量"><a href="#成员变量-和-局部变量" class="headerlink" title="成员变量 和 局部变量"></a>成员变量 和 局部变量</h2><p>我们知道成员变量就是类中方法外的变量, 局部变量就是方法中的变量.</p>
+<p>然后是跟着黑马写了个小游戏:</p>
+<p>JavaBean:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><code class="hljs bash">package YXLtest;<br><br>public class role<br>&#123;<br><br>    private String name;<br>    private int blood;<br>    private int power;<br><br>    public <span class="hljs-function"><span class="hljs-title">role</span></span> ()<br>    &#123;&#125;<br><br>    public role (String name, int blood,int power)<br>    &#123;<br>        this.name = name;<br>        this.blood = blood;<br>        this.power = power;<br>    &#125;<br><br>    public void setName(String name)<br>    &#123;<br>        this.name = name;<br>    &#125;<br>    public String <span class="hljs-function"><span class="hljs-title">getName</span></span>()<br>    &#123;<br>        <span class="hljs-built_in">return</span> name;<br>    &#125;<br>    public void setBlood(int blood)<br>    &#123;<br>        this.blood = blood;<br>    &#125;<br>    public int <span class="hljs-function"><span class="hljs-title">getBlood</span></span> ()<br>    &#123;<br>        <span class="hljs-built_in">return</span> this.blood;<br>    &#125;<br>    public void setPower(int power)<br>    &#123;<br>        this.power = power;<br>    &#125;<br>    public int <span class="hljs-function"><span class="hljs-title">getPower</span></span>()<br>    &#123;<br>        <span class="hljs-built_in">return</span> this.power;<br>    &#125;<br><br><br><br>    public void attack(role attackered)<br>    &#123;<br>        attackered.setBlood(attackered.getBlood() - this.getPower());<br>        attackered.setBlood( attackered.getBlood() &gt;= 0 ?attackered.getBlood():0);<br>        System.out.println(this.name+<span class="hljs-string">&quot;挥起拳头打了&quot;</span>+attackered.name+<span class="hljs-string">&quot;造成了&quot;</span>+this.power+<span class="hljs-string">&quot;点伤害&quot;</span>+attackered.name+<span class="hljs-string">&quot;剩余&quot;</span>+attackered.getBlood()+<span class="hljs-string">&quot;点血量&quot;</span>);<br><br>    &#125;<br><br><br>&#125;<br></code></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><code class="hljs bash">package YXLtest;<br><br>public class Game<br>&#123;<br>    public static void main(String[] args)<br>    &#123;<br>        int i = 0;<br>        role gjx = new role(<span class="hljs-string">&quot;gjx&quot;</span>,100,10);<br>        role yxl = new role(<span class="hljs-string">&quot;yxl&quot;</span>,999,20);<br>        <span class="hljs-keyword">while</span>(<span class="hljs-literal">true</span>)<br>        &#123;<br><br>            i++;<br>            <span class="hljs-keyword">if</span>(yxl.getBlood()==0 )<br>            &#123;<br>                System.out.println(gjx.getName()+<span class="hljs-string">&quot;获胜!&quot;</span>);<br>                <span class="hljs-built_in">break</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span>(gjx.getBlood()==0)<br>            &#123;<br>                System.out.println(yxl.getName()+<span class="hljs-string">&quot;获胜!&quot;</span>);<br>                <span class="hljs-built_in">break</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (i % 2 == 0) &#123;<br>                gjx.attack(yxl);<br>            &#125;<br>            <span class="hljs-keyword">else</span> &#123;<br>                yxl.attack(gjx);<br>            &#125;<br><br><br>        &#125;<br>    &#125;<br><br><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>效果是这样的:</p>
+<p><img src="/images/%E5%B0%8F%E6%B8%B8%E6%88%8F1.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -338,20 +344,20 @@
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Beitragsautor</div>
+          <div>Aŭtoro</div>
           <div>John Doe</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Veröffentlicht am</div>
+          <div>Postigita</div>
           <div>December 18, 2024</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Urheberrechtshinweis</div>
+          <div>Lizenta</div>
           <div>
             
               
@@ -383,7 +389,7 @@
                     
                       <a href="/2024/12/17/%E5%A4%A7%E4%BD%9C%E4%B8%9A%E8%BF%9B%E5%BA%A6-3/" title="大作业进度-2">
                         <span class="hidden-mobile">大作业进度-2</span>
-                        <span class="visible-mobile">Nächster</span>
+                        <span class="visible-mobile">Sekva afiŝo</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -404,7 +410,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Inhaltsverzeichnis</span>
+    <span>Enhavtabelo</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -460,7 +466,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Suchen</h4>
+        <h4 class="modal-title w-100 font-weight-bold">Serĉi</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -468,7 +474,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Stichwort</label>
+          <label data-error="x" data-success="v" for="local-search-input">ŝlosivorto</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -646,7 +652,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog funktioniert am besten mit aktiviertem JavaScript</div>
+    <div class="noscript-warning">Blogo funkcias plej bone kun JavaScript ebligita</div>
   </noscript>
 </body>
 </html>
