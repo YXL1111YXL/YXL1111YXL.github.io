@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>java面向对象-4</title>
+    <link href="/2024/12/18/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-4/"/>
+    <url>/2024/12/18/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-4/</url>
+    
+    <content type="html"><![CDATA[<h2 id="今天"><a href="#今天" class="headerlink" title="今天."></a>今天.</h2><h2 id="this-的内存原理"><a href="#this-的内存原理" class="headerlink" title="this 的内存原理"></a>this 的内存原理</h2><pre><code class="bash">public class Student&#123;     private int age;     public void method ( )     &#123;          int age = 10;          System.out.println(</code></pre>]]></content>
+    
+    
+    <categories>
+      
+      <category>笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>面向对象</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>大作业进度-2</title>
     <link href="/2024/12/17/%E5%A4%A7%E4%BD%9C%E4%B8%9A%E8%BF%9B%E5%BA%A6-3/"/>
     <url>/2024/12/17/%E5%A4%A7%E4%BD%9C%E4%B8%9A%E8%BF%9B%E5%BA%A6-3/</url>
@@ -64,9 +91,23 @@
     <link href="/2024/12/16/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-2/"/>
     <url>/2024/12/16/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-2/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h2 id="今天"><a href="#今天" class="headerlink" title="今天."></a>今天.</h2><h2 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">public class Student   //这是一个类,一个模板.<br>&#123;<br>     修饰符(private,public)   类名(跟类名一定一致!)   (参数)<br>     &#123;<br>          方法体;<br>     &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>注意三点:</p><ul><li>方法名与类名相同,大小写也要一致.</li><li>没有返回值类型,连 void 都没有.</li><li>没有具体的返回值 (不能由 return 带回结果数据)</li></ul><p>下面构造一个类:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs bash">public class Student<br>&#123;<br>     private String name;<br>     private int age;<br>     <br><br>     public Student( )   //空参构造方法<br>     &#123;<br>          ...<br>     &#125;<br>     <br>     public Student(String name , int age )  //带参构造方法<br>     &#123;<br>          ...<br>     &#125;<br><br>&#125;<br></code></pre></td></tr></table></figure><p>注意两点:</p><ul><li>创建对象的时候由虚拟机调用,不能手动调用构造方法.</li><li>每创建一次对象,都会调用一次构造方法.</li></ul><p>上图:</p><p><img src="/images/%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%951.png"></p><p>每个类里面必须有构造方法,如果你没有写任何构造方法.<br>但如果你没写任何构造方法,虚拟机会自动加一个空参构造方法.<br>但如果你已经写了带参构造,系统便不会为你添加空参构造.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><code class="hljs bash">pack com.aaaaa.aaaaa<br><br><br>public class Student<br>&#123;<br>     private String name;<br>     private int age;<br>     <br><br><br>     public String <span class="hljs-function"><span class="hljs-title">getName</span></span>()<br>     &#123;<br>          <span class="hljs-built_in">return</span> name;<br>     &#125;<br>     <br>     public void setName(String name)<br>     &#123;<br>          this name = name;<br>     &#125;<br><br>     public int <span class="hljs-function"><span class="hljs-title">getAge</span></span> ()<br>     &#123;<br>          <span class="hljs-built_in">return</span> age;<br>     &#125;<br><br>     public void setAge (int age)<br>     &#123;<br>          this age = age;<br>     &#125;<br>&#125;<br></code></pre></td></tr></table></figure><h2 id="像上述类中就没有任何构造方法-里面的其他方法-我更愿称之为工具-都带有返回值类型显然不是构造方法-如果你在一个类中定义了两种构造方法-那么系统会根据你创建对象时的参数去调用对应的构造方法-其实在实际去定义一个类时-无参构造方法和带参构造方法都会写上-因为无参可以我们更加方便的去让我们输入变量的值"><a href="#像上述类中就没有任何构造方法-里面的其他方法-我更愿称之为工具-都带有返回值类型显然不是构造方法-如果你在一个类中定义了两种构造方法-那么系统会根据你创建对象时的参数去调用对应的构造方法-其实在实际去定义一个类时-无参构造方法和带参构造方法都会写上-因为无参可以我们更加方便的去让我们输入变量的值" class="headerlink" title="像上述类中就没有任何构造方法,里面的其他方法(我更愿称之为工具)都带有返回值类型显然不是构造方法.如果你在一个类中定义了两种构造方法,那么系统会根据你创建对象时的参数去调用对应的构造方法.其实在实际去定义一个类时,无参构造方法和带参构造方法都会写上.因为无参可以我们更加方便的去让我们输入变量的值."></a>像上述类中就没有任何构造方法,里面的其他方法(我更愿称之为工具)都带有返回值类型显然不是构造方法.<br>如果你在一个类中定义了两种构造方法,那么系统会根据你创建对象时的参数去调用对应的构造方法.<br>其实在实际去定义一个类时,无参构造方法和带参构造方法都会写上.<br>因为无参可以我们更加方便的去让我们输入变量的值.</h2><h2 id="1-构造方法的作用"><a href="#1-构造方法的作用" class="headerlink" title="1.构造方法的作用"></a>1.构造方法的作用</h2><ul><li>创建对象的时候,由虚拟机自动调用,给成员变量进行初始化.</li></ul><hr><h2 id="2-两种构造方法的工作"><a href="#2-两种构造方法的工作" class="headerlink" title="2.两种构造方法的工作"></a>2.两种构造方法的工作</h2><ul><li>无参数构造方法: 初始化对象时, 成员变量的数据均采用默认值.</li><li>有参数构造方法: 初始化对象时, 同时为对象赋值.</li></ul><p>“构造方法就是用来创建对象的”这句话时错的.<br>真正创建对象其实是 new 关键字干的.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs bash">public class SudentTest<br>&#123;<br>     public static void main (String[] args)<br>     &#123;<br>          Student s1 = new Student (); //是这个 new 创建了一个新的对象.<br>     &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>创建对象的时候, 虚拟机会自动调用构造方法, 作用是给成员变量进行初始化的.</p><ul><li>标准的javaBean类</li></ul><ol><li><p>记住成员变量使用 private 修饰.</p></li><li><p>提供至少两个构造方法.</p></li></ol><h2 id="空参"><a href="#空参" class="headerlink" title="-  空参"></a>-<br>  空参</h2><p>  全部参</p><ol start="3"><li>成员方法,</li></ol><ul><li> 提供每一个成员变量对应的 setXxx() &#x2F; getXxx ()</li><li> 根据需求写上其他行为.</li></ul><p>本来学到了-三种情况的对象内存图-, 但是呢看了10分钟,感觉是非常的不对劲, 这个内容很抽象.<br>当时脑子用了一天已经很疲惫了, 打算等一个完美状态给他化抽象为具体.</p>]]></content>
     
     
+    <categories>
+      
+      <category>笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>面向对象</tag>
+      
+    </tags>
     
   </entry>
   
